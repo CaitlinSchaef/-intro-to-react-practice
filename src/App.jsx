@@ -4,11 +4,19 @@ import {useState} from "react"
 const Title = () => {
   return (
     <h1>
-      Hello World!
+      Would you like to count numbers?
     </h1>
   )
 }
 
+const ContactLink = () => {
+  return (
+    <div>
+      <Link to={'/contacts'}></Link>
+    </div>
+  )
+ }
+ 
 
 function App() {
   let [count, setCount] = useState(0)
@@ -19,18 +27,26 @@ function App() {
       style={{ color: 'white' }}
     >
       <div>
-      <Link className="text-light" to='/about'>About</Link>
+      <Link className="text-light" to='/contacts'>Contacts</Link>
       <Title />
       </div>
       <div>
         <button 
         onClick={() => setCount(count+1)}
-        >Count With Me</button>
-        {count}
+        >Infinite Count With Me!</button>
+        <br></br>
+        <h3>{count}</h3>
       </div>
-
     </div>
   )
+  const ContactLink = () => {
+    return (
+      <div>
+        <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
+      </div>
+    )
+   }
+   
 }
 
 
