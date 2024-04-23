@@ -8,14 +8,6 @@ const Title = () => {
     </h1>
   )
 }
-
-const ContactLink = () => {
-  return (
-    <div>
-      <Link to={'/contacts'}></Link>
-    </div>
-  )
- }
  
 
 function App() {
@@ -26,8 +18,10 @@ function App() {
       className="bg-primary h-100 p-5"
       style={{ color: 'white' }}
     >
+      {/* this  isn't calling the ContactLink function?*/}
       <div>
-      <Link className="text-light" to='/contacts'>Contacts</Link>
+      <Link className="text-light" to='/contacts'>Contacts</Link> <br></br>
+      <Link className="text-light" to='/about'>About</Link>
       <Title />
       </div>
       <div>
@@ -39,15 +33,6 @@ function App() {
       </div>
     </div>
   )
-  //Why does this do nothing??
-  // const ContactLink = () => {
-  //   return (
-  //     <div>
-  //       <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
-  //     </div>
-  //   )
-  //  }
-   
 }
 
 

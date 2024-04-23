@@ -11,34 +11,10 @@ function ContactLink() {
    <div className="p-5">
      <Link to='/'>{'<- Back'}</Link>
      <h1>Contact Page</h1>
-     <p> Instructor List: 
-
-Ember Borja
-
-Jacqueline Benson
-
-Jason Mize
-
-Mackenzie Hanes
-
-Reece Walter
+     <p> Instructor List: Ember Borja, Jacqueline Benson, Jason Mize, Mackenzie Hanes, Reece Walter
 <br></br>
       Student List: 
-     Ryan Anderson, Madeline Carlson, Owen Coombs, Brandon Heisler, Jacinta Helm, Henry Knollenberg
-
-Duke McClellan
-
-Eoin McDonnell
-
-Cody Miller
-
-Jay Miller
-
-Neal Sharma
-
-Nathan Wilson
-
-
+     Ryan Anderson, Madeline Carlson, Owen Coombs, Brandon Heisler, Jacinta Helm, Henry Knollenberg, Duke McClellan, Eoin McDonnell, Cody Miller, Jay Miller, Neal Sharma, Nathan Wilson
      </p>
    </div>
  )
