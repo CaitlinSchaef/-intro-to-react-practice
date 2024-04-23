@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom"
 
-// function About() {
-//   return (
-//     <div className="p-5">
-//       <Link to='/'>{'<- Back'}</Link>
-//       <h1>About Page</h1>
-//     </div>
-//   )
-// }
+// import About from './About'
+import App from './App'
+import ErrorPage from './ErrorPage'
+import Contacts from './Contacts'
 
 
-// export default About
+function About() {
+  return (
+    <div className="p-5">
+      <Link to='/'>{'<- Back'}</Link>
+      <h1>About Page</h1>
+    </div>
+     const ContactLink = () => {
+        return (
+          <div>
+            <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
+          </div>
+        )
+       }
+  )
+}
+
+
+export default About
