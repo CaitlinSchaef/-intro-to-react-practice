@@ -39,13 +39,14 @@ function App() {
       </div>
     </div>
   )
-  const ContactLink = () => {
-    return (
-      <div>
-        <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
-      </div>
-    )
-   }
+  //Why does this do nothing??
+  // const ContactLink = () => {
+  //   return (
+  //     <div>
+  //       <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
+  //     </div>
+  //   )
+  //  }
    
 }
 

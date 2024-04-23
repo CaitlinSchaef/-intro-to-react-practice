@@ -12,13 +12,6 @@ function About() {
       <Link to='/'>{'<- Back'}</Link>
       <h1>About Page</h1>
     </div>
-     const ContactLink = () => {
-        return (
-          <div>
-            <Link style={{ color: '#fff' }} to={'/contacts'}>Contacts</Link>
-          </div>
-        )
-       }
   )
 }
 
